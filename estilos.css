@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+h2{
+    font: lighter 16px monospace;
+    
+}
+
+header,section,footer,aside,nav,hgroup,article{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    margin: 15px auto;
+    width: 960px;
+    border: 1px solid black;
+}
+.header{
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: left;
+}
+.menu{
+    background:#81ecec;
+    padding: 5px 15px;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: 14px 'Franklin Gothic Medium';
+    display:inline-block;
+}
+
+.seccion{
+    margin: 20px;
+    width: 60%;
+    /* permite que la colmnas queden una al lado de la otra */
+    float: left;
+}
+article{
+    background: #ffccbc;    
+    padding: 20px;
+    margin-bottom:15px ;
+}
+time{
+    color: gray;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.columna{
+    width: 30%;
+    float: left;
+    margin:20px 0px;
+}
+.columna blockquote{
+    padding: 40px;
+    background: #ffccbc;
+    margin: 20px;
+}
+
+.pie{
+    /* hace que las columnas flotantes vuelvan a conservar el aspecto */
+    clear:both;  
+    padding: 20px;
+    background: #81ecec;
+    font: 14px 'Franklin Gothic Medium';
+    
+}
+
+img{
+    width: 80px;
+    display:block;
+    margin: 20px auto;
+    
+}
+
+
+

@@ -28,7 +28,8 @@ if(result === true){
 
 }
 let typeCard = 'Debic card';
-//---------------------------
+
+//Swtich---------------------------
 switch(typeCard){
     case 'Debid Card':
         console.log('this is a debid card');

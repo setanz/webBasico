@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "base de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "basico",
+    "nodejs"
+  ],
+  "author": "Daniela",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

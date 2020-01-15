@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <br>
+    <button class="btn">Prueba</button>
+    <button class="btn btn-primary">Prueba</button>
+    <button class="btn btn-secondary">Prueba</button>
+    <button class="btn btn-success">Prueba</button>
+    <button class="btn btn-info">Prueba</button>
+    <button class="btn btn-warning">Prueba</button>
+    <button class="btn btn-danger">Prueba</button>
+    <button class="btn btn-light">Prueba</button>
+    <button class="btn btn-dark">Prueba</button>
+    <button class="btn btn-link">Prueba</button>
+
+    <hr>
+    <a class="btn btn-primary" href="#">Enlace</a>
+    <button type="submit" class="btn btn-dark">Enviar</button>
+    <input type="button" class="btn btn-primary" value="Aceptar">
+    <input type="submit" class="btn btn-success" value="Send">
+    <input type="reset" class="btn btn-danger" value="Refrescar">
+
+    <hr>
+    <button class="btn btn-outline-primary">Prueba</button>
+    <button class="btn btn-outline-secondary">Prueba</button>
+    <button class="btn btn-outline-success">Prueba</button>
+    <button class="btn btn-outline-info">Prueba</button>
+    <button class="btn btn-outline-warning">Prueba</button>
+    <button class="btn btn-outline-danger">Prueba</button>
+    <button class="btn btn-outline-light">Prueba</button>
+    <button class="btn btn-outline-dark">Prueba</button>
+    <button class="btn btn-outline-link">Prueba</button>
+
+    <hr>
+    <button class="btn btn-primary btn-lg">Boton</button>
+    <button class="btn btn-primary btn-sm">Boton</button>
+    <button class="btn btn-primary btn-md">Boton</button>
+    <br><br>
+    <button class="btn btn-primary btn-block">Boton</button>
+
+    <hr>
+    <!-- iconos de fontawesome -->
+    <button class="btn btn-primary btn-lg">
+        <i class="fa fa-user"></i>
+        Boton
+
+    </button>
+
+    <!-- Estados, bootstrap trae estados que en los botones estan predefinidos pero nosotros podemos poner que un boton tenga un estado siempre -->
+    <hr>
+    <button class="btn btn-dark active">holi</button>
+    <button class="btn btn-dark disable">holi</button>
+    <button class="btn btn-dark " data-toggle="button">holi</button>
+
+    <!-- split dropdown -->
+    <hr>
+    <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">
+            elegir
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">uno</a>
+            <a class="dropdown-item" href="#">dos</a>
+            <a class="dropdown-item" href="#">tres</a>
+        </div>
+    </div>
+    <hr>
+    <!-- two buttons, one split and other normal  -->
+    <div class="btn-group">
+        <button class="btn btn-info">
+            Miboton
+        </button>
+        <button class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+            Toggle Dropdawn
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">uno</a>
+            <a class="dropdown-item" href="#">dos</a>
+            <a class="dropdown-item" href="#">tres</a>
+        </div>
+
+    </div>
+    <!-- buttons group -->
+    <hr>
+    <div class="btn-group">
+        <button class="btn btn-danger">izquierda</button>
+        <button class="btn btn-danger">centro</button>
+        <button class="btn btn-danger">derecha</button>
+    </div>
+
+    <hr>
+
+    <!-- buttons inline -->
+    <div class="btn btn-toolbar" role="toolbar">
+        <div class="btn-group">
+            <button class="btn btn-warning">1</button>
+            <button class="btn btn-warning">2</button>
+            <button class="btn btn-warning">3</button>
+            <button class="btn btn-warning">4</button>
+        </div>
+        <div class="btn-group ml-2">
+            <button class="btn btn-warning">5</button>
+            <button class="btn btn-warning">6</button>
+            <button class="btn btn-warning">7</button>
+        </div>
+        <button class="btn btn-warning">8</button>
+    </div>
+
+    <hr>
+    <div class="btn-group-vertical">
+        <button class="btn btn-warning">1</button>
+        <button class="btn btn-warning">2</button>
+        <button class="btn btn-warning">3</button>
+        <button class="btn btn-warning">4</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+
+.ListEpisodios{
+    width: 500px;
+    height: 500px;
+}
+.ListEpisodios a{
+    text-decoration: none;
+}
+.ListEpisodios img{
+    width: 25%;
+    display: flexbox;
+    position: absolute;
+}
+
+.ListEpisodios .Capi{
+    background: orange;
+    border-radius: 30px;
+    padding:  0px 10px;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    
+
+}
+
+.ListEpisodios .Title{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 260px;
+}

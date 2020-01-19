@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- la clase del nav le dice que es un navbar que se expande en una patalla media, es de color claro y de fondo claro -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- para pner el titulo -->
+        <a href="" class="navbar-brand">App</a>
+        <!-- hace que al disminuir el tamaño se pongan debajo del titulo-->
+        <div class="navbar-collapse">
+            <!-- le dice que va a ser la navegacion del navbar -->
+            <!-- el ml-auto pone las cosas a la derecha -->
+            <ul class="navbar-nav ml-auto">
+                <!-- hace que los li sean items de la nacegacion, pero se ven pegados -->
+                <li class="nav-item">
+                    <!--Al decir que son link del nav hace que se vean separados  -->
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand">App</a>
+
+            <div class="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand">App</a>
+            <!-- Crea el boton encargado de colapsar -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#firstNavbar" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- se agrega collapse para que al disminuir la pagina el menu se vea colapsado desde el principio -->
+            <div class="collapse navbar-collapse" id="firstNavbar">
+                <ul class=" navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand">App</a>
+            <!-- Crea el boton encargado de colapsar -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#secondNav" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- se agrega collapse para que al disminuir la pagina el menu se vea colapsado desde el principio -->
+            <div class="collapse navbar-collapse" id="secondNav">
+                <ul class=" navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+                <form class="form-inline">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand">App</a>
+            <!-- Crea el boton encargado de colapsar -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#secondNav" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- se agrega collapse para que al disminuir la pagina el menu se vea colapsado desde el principio -->
+            <div class="collapse navbar-collapse" id="secondNav">
+                <ul class=" navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    <li></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Items</a>
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">iten1</a>
+                            <a href="" class="dropdown-item">iten2</a>
+                            <a href="" class="dropdown-item">iten3</a>
+                            <a href="" class="dropdown-item">iten4</a>
+                            <a href="" class="dropdown-item">iten5</a>
+                            <a href="" class="dropdown-item">iten6</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

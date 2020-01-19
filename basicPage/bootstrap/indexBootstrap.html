@@ -1,60 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Basic Page</title>
-</head>
-<div class="margenNav">
-    <header class="header">
-        <nav class="navbar">
-            <h2>AnimeFlv</h2>
-            <ul>
-                <li>Inicio</li>
-                <li>Directorio anime</li>
-                <li>Estrenos invierno</li>        
-            </ul>
-            <form action="" method="get">
-                <input type="text" name="search" id="search" placeholder="Seach">
-            </form>
-            <button>Login</button>
-            
-        </nav>
-    </header>
-</div>
+  </head>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="h2 text-primary"> Animeflv</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body>
-    <div class="body">
-        <h3>AnimeFLV tu fuente de anime gratis en HD</h3>
-        <div class="inEmision">
-            <article >
-                <h5>En emisión</h5>
-                <ul>
-                    <li> <a href="" >one piece</a> </li>
-                    <li> <a href=""> detective conan</a></li>
-                    <li><a href="" >boruto</a></li>
-                    <li><a href="" >dragon ball super</a></li>
-                    <li><a href="" >black clover</a></li>
-                    <li><a href="" >diamon no acce</a></li>
-                    <li><a href="" >ahiru no sora</a></li>
-                    <li><a href="" >naruto</a></li>
-                    <li><a href="" >iniyusha</a></li>
-                </ul>
-            </article>
-        </div>
-        <article>
-            <img src="images/1.jpg" alt="">
-            <img src="images/2.jpg" alt="">
-            <img src="images/3.jpg" alt="">
-            <img src="images/4.jpg" alt="">
-            <img src="images/5.jpg" alt="">
-            <img src="images/6.jpg" alt="">
-        </article>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Inicio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Directorio anime</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#">
+              Estrenos anime
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
     </div>
-    
-</body>
+  </nav>
 
+  <body class="bg-light">
+    <!-- Frase -->
+    <div class="container">
+      <div class="card m-3 bg-dark font">
+        <div class="card-body h3 text-center text-white p-0">
+          <span class="font-weight-bold">AnimeFLV</span>
+          <span class="text-white-50 font-weight-light">
+            tu fuente de anime gratis en HD</span
+          >
+        </div>
+      </div>
 
+      <!-- En emision -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header">En emisión</h5>
+              <section>
+                <!-- <div class="list-group list-group-flush " >
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">one piece</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize"> detective conan</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">boruto</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">dragon ball super</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">black clover</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">diamon no acce</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">ahiru no sora</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">naruto</a>
+                  <a href="" class="list-group-item list-group-item-action text-capitalize">iniyusha</a>
+                </div> -->
+                <div class="list-group list-group-flush pl-3 text-secondary">
+                  <a href="" class="text-capitalize">one piece</a>
+                  <a href="" class="text-capitalize"> detective conan</a>
+                  <a href="" class="text-capitalize">boruto</a>
+                  <a href="" class="text-capitalize">dragon ball super</a>
+                  <a href="" class="text-capitalize">black clover</a>
+                  <a href="" class="text-capitalize">diamon no acce</a>
+                  <a href="" class="text-capitalize">ahiru no sora</a>
+                  <a href="" class="text-capitalize">naruto</a>
+                  <a href="" class="text-capitalize">iniyusha</a>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- imagenes -->
+          <div class="col-sm-8">
+            <ul class="ListEpisodios list-group list-group-horizontal-sm">
+                <li>
+                    <a href="#" class="item">
+                        <span class="Image">
+                            <img src="../images/1.jpg" class="rounded float-left" alt="...">
+                        </span>
+        
+                        <span class="Capi">episodio 1</span>
+                        <strong class="Title">titulo</strong>
+                      </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <span class="Image">
+                            <img src="../images/3.jpg" class="rounded float-left" alt="...">
+                        </span>
+        
+                        <span class="Capi">episodio 1</span>
+                        <strong class="Title">titulo</strong>
+                      </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <span class="Image">
+                            <img src="../images/4.jpg" class="rounded float-left" alt="...">
+                        </span>
+        
+                        <span class="Capi">episodio 1</span>
+                        <strong class="Title">titulo</strong>
+                      </a>
+                </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

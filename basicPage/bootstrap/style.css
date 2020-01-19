@@ -1,0 +1,46 @@
+
+
+
+.list-group a{
+    margin: 10px 5px;
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    color: #2d3436;
+}
+/* imagenes */
+.ListEpisodios{
+    list-style: none;
+}
+/* .ListEpisodios a{
+    text-decoration: none;
+} */
+.ListEpisodios .Image img{
+    width: 25%;
+    display: flexbox;
+    position: absolute;
+    margin-left:  0px;
+}
+
+/* .ListEpisodios .Capi{
+    background: orange;
+    border-radius: 30px;
+    padding:  0px 10px;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    
+
+}
+
+.ListEpisodios .Title{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 260px;
+} */

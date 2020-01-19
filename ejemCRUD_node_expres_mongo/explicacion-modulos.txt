@@ -1,0 +1,7 @@
+Dependencias de node:
+* method-override: permite enviar ciertos metodos por los formularios que normalmente no se podria
+* mongoose: Es un modulo que permite unir a express on mongoDB
+*passport y passport-local: para registrar a las perosnas
+*bcryptjs: para cifrar las contrase;as 
+*connetct-flsh:
+ para enviar mensajes entre vistas

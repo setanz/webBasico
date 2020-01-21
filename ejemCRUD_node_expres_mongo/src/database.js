@@ -10,3 +10,5 @@ mongoose
   })
   .then(db => console.log("DB is connect")) //promesa de que se muestre al conectarse, esto es asincronico
   .catch(err => console.log(err)); // sino se conecta muestra que error salio
+
+  
